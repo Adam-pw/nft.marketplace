@@ -1,0 +1,54 @@
+.main {
+  padding: 1rem 0rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: "Work Sans";
+    font-style: bold;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+
+    gap: 1rem;
+  }
+  .nav {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: "Work Sans";
+    font-style: bold;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #ffffff;
+    &_sub {
+      .nav_button {
+        background-color: #a259ff;
+        padding: 19px 30px;
+        color: white;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+
+        font-family: "Work Sans";
+        font-style: bold;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+
+        gap: 5px;
+      }
+    }
+  }
+}

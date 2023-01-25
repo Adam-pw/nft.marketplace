@@ -1,0 +1,26 @@
+.main {
+  padding: 5rem 14.376rem;
+  color: white;
+
+  .head {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    margin-bottom: 10px;
+  }
+  .subhead {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    margin-bottom: 60px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+  }
+}
