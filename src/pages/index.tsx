@@ -1,13 +1,24 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/Home.module.scss";
 import Navbar from "components/Navbar/Navbar";
 import HeroSection from "components/Hero Section/Hero";
 import Trending_Card from "components/Reusable/Trending_Cards/Trending_Card";
 import Trending from "components/Trending/Trending";
+import Creator_Card from "components/Reusable/Creator_Cards/Creator_card";
+import Creators from "components/Creators/Creators";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const creatorsdata = [
+  {
+    id: 1,
+    image: "/images/Creators/1.svg",
+    name: "Keepitreal",
+    sales: 34.53,
+  },
+];
 
 export default function Home() {
   return (
@@ -18,9 +29,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
-      <HeroSection />
-      <Trending/>
+      <div className={styles.main}>
+        <Navbar />
+        <HeroSection />
+        <Trending />
+        
+        <Creators />
+      </div>
     </>
   );
 }

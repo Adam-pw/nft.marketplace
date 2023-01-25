@@ -1,0 +1,52 @@
+.main {
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+  width: 240px;
+
+  .number {
+    position: absolute;
+    background-color: #2b2b2b;
+    border-radius: 50%;
+    padding: 4px 10px;
+  }
+  .imga {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .name {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .balance {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .bal {
+      text-align: center;
+      color: #858584;
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+    }
+    .balam {
+      display: inline;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+    }
+  }
+}

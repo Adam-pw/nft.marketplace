@@ -1,0 +1,28 @@
+.pre {
+  padding: 5rem 7.188rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+
+  .head {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subhead {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+  }
+}

@@ -1,0 +1,9 @@
+.main {
+  max-width: 1280px;
+  margin: auto;
+
+  @media only screen and (max-width: 1700px) {
+    padding: 0;
+  }
+  
+}
