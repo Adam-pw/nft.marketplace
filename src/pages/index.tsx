@@ -6,8 +6,9 @@ import HeroSection from "components/Hero Section/Hero";
 import Trending from "components/Trending/Trending";
 import Creators from "components/Creators/Creators";
 import Crategories from "components/Categories/Categories";
-import NftCard from "components/Reusable/NftCard/NftCard";
 import Nft from "components/Nft/Nft";
+import How from "components/How/How";
+import Digest from "components/Digest/Digest";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +37,9 @@ export default function Home() {
         <Creators />
         <Crategories />
         <Nft />
+        {/* <Highlight/> */}
+        <How />
+        <Digest />
       </div>
     </>
   );

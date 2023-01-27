@@ -1,0 +1,72 @@
+.pad {
+  padding: 5rem 7.188rem;
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    padding: 60px;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+    color: white;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      .head {
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+
+        margin-bottom: 10px;
+      }
+      .subhead {
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+
+        margin-bottom: 40px;
+      }
+
+      .button {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        border-radius: 20px;
+
+        .buttontext {
+          padding: 20px;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 140%;
+          color: #2b2b2b;
+          border-radius: 20px;
+
+          border: 0;
+        }
+        .but {
+          background-color: #a259ff;
+          border-radius: 20px;
+          color: white;
+          padding: 20px 20px;
+
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 140%;
+
+          display: flex;
+          align-items: center;
+          gap: 12px;
+        }
+      }
+    }
+  }
+}
