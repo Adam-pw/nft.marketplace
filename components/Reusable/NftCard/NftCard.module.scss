@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  .photo {
+    width: 330px;
+    height: 296px;
+  }
+
+  .text {
+    background-color: #3b3b3b;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    width: 330px;
+
+    .head {
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 140%;
+
+      margin-bottom: 5px;
+    }
+    .creator {
+      margin-bottom: 25px;
+      display: flex;
+      gap: 12px;
+
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+    }
+    .title {
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 110%;
+
+      display: flex;
+      color: #858584;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .number {
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

@@ -1,13 +1,13 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.scss";
 import Navbar from "components/Navbar/Navbar";
 import HeroSection from "components/Hero Section/Hero";
-import Trending_Card from "components/Reusable/Trending_Cards/Trending_Card";
 import Trending from "components/Trending/Trending";
-import Creator_Card from "components/Reusable/Creator_Cards/Creator_card";
 import Creators from "components/Creators/Creators";
+import Crategories from "components/Categories/Categories";
+import NftCard from "components/Reusable/NftCard/NftCard";
+import Nft from "components/Nft/Nft";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,8 +33,9 @@ export default function Home() {
         <Navbar />
         <HeroSection />
         <Trending />
-        
         <Creators />
+        <Crategories />
+        <Nft />
       </div>
     </>
   );

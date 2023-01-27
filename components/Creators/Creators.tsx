@@ -88,7 +88,12 @@ export default function Creators() {
         <div>
           <div className={styles.head}>Top Creators</div>
           <div className={styles.subhead}>
-            Checkout Top Rated Creators on the NFT Marketplace
+            <div>Checkout Top Rated Creators on the NFT Marketplace</div>
+            <div>
+              <button className={styles.subhead_button}>
+                <img src="/images/Creators/13.svg" alt="" /> View Rankings
+              </button>
+            </div>
           </div>
         </div>
         <div className={styles.main}>

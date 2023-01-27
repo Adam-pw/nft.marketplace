@@ -1,0 +1,20 @@
+.main {
+  padding: 5rem 7.188rem;
+
+  .head {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: white;
+    margin-bottom: 60px;
+  }
+
+  .mainsub {
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
