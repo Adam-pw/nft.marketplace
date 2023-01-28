@@ -1,9 +1,14 @@
-import styles from "./HighLight.module.scss";
+import styles from "./Highlight.module.scss";
 
 export default function Highlight() {
   return (
     <>
-      <img src="/images/highlight.svg" alt="" />
+      <div
+        className={styles.main}
+        style={{ backgroundImage: "url(/images/highlight.svg)" }}
+      >
+        <div className={styles.linear}></div>
+      </div>
     </>
   );
 }

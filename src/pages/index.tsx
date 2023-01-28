@@ -9,6 +9,8 @@ import Crategories from "components/Categories/Categories";
 import Nft from "components/Nft/Nft";
 import How from "components/How/How";
 import Digest from "components/Digest/Digest";
+import Footer from "components/Footer/Footer";
+import Highlight from "components/Highlight/Highlight";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,9 +39,12 @@ export default function Home() {
         <Creators />
         <Crategories />
         <Nft />
-        {/* <Highlight/> */}
+        <Highlight/>
         <How />
         <Digest />
+      </div>
+      <div className={styles.footer}>
+        <Footer />
       </div>
     </>
   );
