@@ -74,7 +74,13 @@
     --card-border-rgb: 200, 200, 200;
   }
 }
-
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #A259FF;
+  border-radius: 20px;
+}
 * {
   box-sizing: border-box;
   padding: 0;
