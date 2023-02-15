@@ -1,4 +1,5 @@
 import styles from "./Footer.module.scss";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -12,10 +13,10 @@ export default function Footer() {
             </div>
             <div className={styles.row1_3}>Join our community</div>
             <div className={styles.row1_4}>
-              <img src="/images/footer/1.svg" alt="" />
-              <img src="/images/footer/2.svg" alt="" />
-              <img src="/images/footer/3.svg" alt="" />
-              <img src="/images/footer/4.svg" alt="" />
+              <Image width={33} height={32} src="/images/footer/1.svg" alt="" />
+              <Image width={33} height={32} src="/images/footer/2.svg" alt="" />
+              <Image width={33} height={32} src="/images/footer/3.svg" alt="" />
+              <Image width={33} height={32} src="/images/footer/4.svg" alt="" />
             </div>
           </div>
           <div className={styles.row2}>
@@ -38,7 +39,7 @@ export default function Footer() {
                 ></input>
               </div>
               <button className={styles.but}>
-                <img src="/images/mail.svg" alt="" /> Subscribe
+                <Image width={20} height={20} src="/images/mail.svg" alt="" /> Subscribe
               </button>
             </div>
           </div>

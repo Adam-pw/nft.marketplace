@@ -1,5 +1,6 @@
 import NftCard from "components/Reusable/NftCard/NftCard";
 import styles from "./nft.module.scss";
+import Image from "next/image";
 
 const nft = [
   {
@@ -38,7 +39,7 @@ export default function Nft() {
             <div>Explore New Trending NFTs</div>
             <div>
               <button className={styles.subhead_button}>
-                <img src="/images/nftcards/eye.svg" alt="" />
+                <Image width={20} height={20} src="/images/nftcards/eye.svg" alt="" />
                 See All
               </button>
             </div>

@@ -1,5 +1,6 @@
 import Creator_Card from "components/Reusable/Creator_Cards/Creator_card";
 import styles from "./Creators.module.scss";
+import Image from "next/image";
 
 const creatorsdata = [
   {
@@ -91,7 +92,7 @@ export default function Creators() {
             <div>Checkout Top Rated Creators on the NFT Marketplace</div>
             <div>
               <button className={styles.subhead_button}>
-                <img src="/images/Creators/13.svg" alt="" /> View Rankings
+                <Image width={20} height={20} src="/images/Creators/13.svg" alt="" /> View Rankings
               </button>
             </div>
           </div>

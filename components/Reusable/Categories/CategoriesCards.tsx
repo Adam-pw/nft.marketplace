@@ -1,4 +1,5 @@
 import styles from "./CategoriesCards.module.scss";
+import Image from "next/image";
 
 interface card {
   data: {
@@ -21,7 +22,7 @@ export default function CategoriesCards({ data }: card) {
               ></div>
             </div>
             <div className={styles.photo2}>
-              <img src={cat.image2} alt="" />
+              <Image width={100} height={100} src={cat.image2} alt="" />
             </div>
             <div className={styles.text}>{cat.name}</div>
           </div>

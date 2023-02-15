@@ -35,7 +35,7 @@ export default function HeroSection() {
         </div>
         <div className={styles.sub2}>
           <div className={styles.sub2_image}>
-            <Image width={510} height={20} src="/images/hero_image.svg" alt="" />
+            <Image width={510} height={401} src="/images/hero_image.svg" alt="" />
           </div>
           <div className={styles.sub2_text}>
             <div className={styles.sub2_texthead}>Space Walking</div>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./Highlight.module.scss";
+import Image from "next/image";
 
 export default function Highlight() {
   const [time, setTime] = useState("");
@@ -17,14 +18,14 @@ export default function Highlight() {
         <div className={styles.linear}>
           <div className={styles.card}>
             <div className={styles.creator}>
-              <img src="/images/highcreator.svg" alt="" />
+              <Image width={24} height={24} src="/images/highcreator.svg" alt="" />
               Shroomie
             </div>
             <div className={styles.row}>
               <div>
                 <div className={styles.head}>Magic Mashrooms</div>
                 <button className={styles.button}>
-                  <img src="/images/nftcards/eye.svg" alt="" />
+                  <Image width={20} height={20} src="/images/nftcards/eye.svg" alt="" />
                   See NFT
                 </button>
               </div>

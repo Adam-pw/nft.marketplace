@@ -1,5 +1,5 @@
 import styles from "./Creator_Card.module.scss";
-
+import Image from "next/image";
 interface card {
   datacreator: {
     id: number;
@@ -19,7 +19,7 @@ export default function Creator_Card({ datacreator }: card) {
               <div className={styles.main}>
                 <div className={styles.number}>{data.id}</div>
                 <div className={styles.imga}>
-                  <img src={data.image} alt="" />
+                  <Image width={120} height={120} src={data.image} alt="" />
                 </div>
                 <div className={styles.name}>{data.name}</div>
                 <div className={styles.balance}>

@@ -1,4 +1,5 @@
 import styles from "./Digest.module.scss";
+import Image from "next/image";
 
 export default function Digest() {
   return (
@@ -6,7 +7,7 @@ export default function Digest() {
       <div className={styles.pad}>
         <div className={styles.main}>
           <div className={styles.image}>
-            <img src="/images/digest.svg" alt="" />
+            <Image width={425} height={310} src="/images/digest.svg" alt="" />
           </div>
           <div className={styles.text}>
             <div className={styles.head}>Join Our Weekly Digest</div>
@@ -18,7 +19,7 @@ export default function Digest() {
                 <input className={styles.buttontext} value="Enter your email here"></input>
               </div>
               <button className={styles.but}>
-                <img src="/images/mail.svg" alt="" /> Subscribe
+                <Image width={20} height={20}src="/images/mail.svg" alt="" /> Subscribe
               </button>
             </div>
           </div>

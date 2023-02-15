@@ -1,4 +1,5 @@
 import styles from "./How.module.scss";
+import Image from "next/image";
 
 const data = [
   {
@@ -29,7 +30,7 @@ export default function How() {
             return (
               <>
                 <div className={styles.main}>
-                  <img src={how.image} alt="" />
+                  <Image width={250} height={250}src={how.image} alt="" />
                   <div className={styles.head}>{how.head}</div>
                   <div className={styles.text}>{how.text}</div>
                 </div>

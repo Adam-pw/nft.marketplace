@@ -1,5 +1,5 @@
 import styles from "./NftCard.module.scss";
-
+import Image from "next/image";
 interface card {
   data: {
     image: string,
@@ -18,7 +18,7 @@ export default function NftCard({ data }: card) {
         return (
           <>
             <div className={styles.main}>
-              <img
+              <Image width={20} height={20}
                 className={styles.photo}
                 src={nft.image}
                 alt=""
@@ -27,7 +27,7 @@ export default function NftCard({ data }: card) {
               <div className={styles.text}>
                 <div className={styles.head}>{nft.name}</div>
                 <div className={styles.creator}>
-                  <img src={nft.profile} alt="" />
+                  <Image width={20} height={20} src={nft.profile} alt="" />
                   {nft.creator}
                 </div>
                 <div className={styles.title}>
