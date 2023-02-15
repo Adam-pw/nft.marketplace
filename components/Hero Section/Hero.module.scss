@@ -4,12 +4,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  @media only screen and (max-width: 600px) {
+    padding: 40px 30px;
+    flex-direction: column;
+  }
   .sub1 {
     display: flex;
     flex-direction: column;
     gap: 30px;
     width: 39.84%;
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+      margin-bottom: 40px;
+    }
 
     &_head {
       font-family: "Work Sans";
@@ -17,6 +24,10 @@
       font-weight: 600;
       font-size: 67px;
       line-height: 110%;
+      @media only screen and (max-width: 600px) {
+        font-size: 28px;
+        line-height: 140%;
+      }
     }
     &_subhead {
       font-family: "Work Sans";
@@ -24,6 +35,10 @@
       font-weight: 400;
       font-size: 22px;
       line-height: 160%;
+      @media only screen and (max-width: 600px) {
+        font-size: 16px;
+        line-height: 140%;
+      }
     }
     .button {
       .buttoninner {
@@ -41,6 +56,10 @@
         line-height: 140%;
 
         gap: 12px;
+
+        @media only screen and (max-width: 600px) {
+        padding: 19px 95.5px;
+      }
       }
     }
 
@@ -54,15 +73,15 @@
       line-height: 140%;
     }
     .sub1_trends2 {
-        // width: 95%;1
-        display: flex;
-        justify-content: space-between;
-        font-family: 'Work Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 23.99px;
-        line-height: 160%;
-      }
+      // width: 95%;1
+      display: flex;
+      justify-content: space-between;
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 23.99px;
+      line-height: 160%;
+    }
   }
 
   .sub2 {
