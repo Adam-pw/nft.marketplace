@@ -35,11 +35,19 @@ export default function Home() {
       <div className={styles.main}>
         <Navbar />
         <HeroSection />
+        <iframe
+          id="wallsio-iframe"
+          src="https://my.walls.io/r4tnn?nobackground=1&amp;show_header=0"
+          style={{ height: "70vh", width: "100%" }}
+          loading="lazy"
+          title="Hack This Fall 3.0 Social Wall"
+          className={styles.twitter}
+        ></iframe>
         <Trending />
         <Creators />
         <Crategories />
         <Nft />
-        <Highlight/>
+        <Highlight />
         <How />
         <Digest />
       </div>
