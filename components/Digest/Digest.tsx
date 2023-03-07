@@ -16,7 +16,7 @@ export default function Digest() {
             </div>
             <div className={styles.button}>
               <div >
-                <input className={styles.buttontext} value="Enter your email here"></input>
+                <input className={styles.buttontext} placeholder="Enter your email here"></input>
               </div>
               <button className={styles.but}>
                 <Image width={20} height={20}src="/images/mail.svg" alt="" /> Subscribe

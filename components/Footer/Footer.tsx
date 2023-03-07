@@ -35,7 +35,7 @@ export default function Footer() {
               <div>
                 <input
                   className={styles.buttontext}
-                  value="Enter your email here"
+                 type="text" placeholder="Enter your email here"
                 ></input>
               </div>
               <button className={styles.but}>
