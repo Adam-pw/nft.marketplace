@@ -19,7 +19,7 @@ export default function HeroSection() {
               <Image
                 width={20}
                 height={20}
-                src="/images/hero_rocket.svg"
+                src="/images/hero_rocket.png"
                 alt=""
               />
               Get Started
@@ -53,7 +53,7 @@ export default function HeroSection() {
               <Image
                 width={24}
                 height={24}
-                src="images/hero_creator.svg"
+                src="images/hero_creator.png"
                 alt=""
               />
               <div className="">Animakid</div>

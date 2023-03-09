@@ -13,19 +13,19 @@ export default function Highlight() {
     <>
       <div
         className={styles.main}
-        style={{ backgroundImage: "url(/images/highlight.svg)", objectFit: "cover" }}
+        style={{ backgroundImage: "url(/images/highlight.png)", objectFit: "cover" }}
       >
         <div className={styles.linear}>
           <div className={styles.card}>
             <div className={styles.creator}>
-              <Image width={24} height={24} src="/images/highcreator.svg" alt="" />
+              <Image width={24} height={24} src="/images/highcreator.png" alt="" />
               Shroomie
             </div>
             <div className={styles.row}>
               <div>
                 <div className={styles.head}>Magic Mashrooms</div>
                 <button className={styles.button}>
-                  <Image width={20} height={20} src="/images/nftcards/eye.svg" alt="" />
+                  <Image width={20} height={20} src="/images/nftcards/eye.png" alt="" />
                   See NFT
                 </button>
               </div>

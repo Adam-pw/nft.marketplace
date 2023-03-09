@@ -39,7 +39,7 @@ export default function Footer() {
                 ></input>
               </div>
               <button className={styles.but}>
-                <Image width={20} height={20} src="/images/mail.svg" alt="" /> Subscribe
+                <Image width={20} height={20} src="/images/mail.png" alt="" /> Subscribe
               </button>
             </div>
           </div>

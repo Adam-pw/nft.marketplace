@@ -7,7 +7,7 @@ export default function Digest() {
       <div className={styles.pad}>
         <div className={styles.main}>
           <div className={styles.image}>
-            <Image width={425} height={310} src="/images/digest.svg" alt="" />
+            <Image width={425} height={310} src="/images/digest.png" alt="" />
           </div>
           <div className={styles.text}>
             <div className={styles.head}>Join Our Weekly Digest</div>
@@ -19,7 +19,7 @@ export default function Digest() {
                 <input className={styles.buttontext} placeholder="Enter your email here"></input>
               </div>
               <button className={styles.but}>
-                <Image width={20} height={20}src="/images/mail.svg" alt="" /> Subscribe
+                <Image width={20} height={20}src="/images/mail.png" alt="" /> Subscribe
               </button>
             </div>
           </div>

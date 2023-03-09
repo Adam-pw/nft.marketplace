@@ -3,46 +3,46 @@ import styles from "./Categories.module.scss";
 
 const categories = [
   {
-    image: "/images/Categories/1.svg",
-    image2: "/images/Categories/2.svg",
+    image: "/images/Categories/1.png",
+    image2: "/images/Categories/2.png",
     name: "Art",
   },
   {
-    image: "/images/Categories/3.svg",
-    image2: "/images/Categories/4.svg",
+    image: "/images/Categories/3.png",
+    image2: "/images/Categories/4.png",
     name: "Collectibles",
   },
   {
-    image: "/images/Categories/5.svg",
-    image2: "/images/Categories/6.svg",
+    image: "/images/Categories/5.png",
+    image2: "/images/Categories/6.png",
     name: "Music",
   },
   {
-    image: "/images/Categories/7.svg",
-    image2: "/images/Categories/8.svg",
+    image: "/images/Categories/7.png",
+    image2: "/images/Categories/8.png",
     name: "Photography",
   },
 ];
 
 const categories1 = [
   {
-    image: "/images/Categories/10.svg",
-    image2: "/images/Categories/9.svg",
+    image: "/images/Categories/10.png",
+    image2: "/images/Categories/9.png",
     name: "Video",
   },
   {
-    image: "/images/Categories/12.svg",
-    image2: "/images/Categories/11.svg",
+    image: "/images/Categories/12.png",
+    image2: "/images/Categories/11.png",
     name: "Utility",
   },
   {
     image: "/images/Categories/14.svg",
-    image2: "/images/Categories/13.svg",
+    image2: "/images/Categories/13.png",
     name: "Sport",
   },
   {
-    image: "/images/Categories/16.svg",
-    image2: "/images/Categories/15.svg",
+    image: "/images/Categories/16.png",
+    image2: "/images/Categories/15.png",
     name: "Virtual Worlds",
   },
 ];
