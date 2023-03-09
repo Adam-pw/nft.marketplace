@@ -39,7 +39,9 @@ export default function Home() {
         <Creators />
         <Crategories />
         <Nft />
-        <Highlight />
+      </div>
+      <Highlight />
+      <div className={styles.main}>
         <How />
         <Digest />
       </div>

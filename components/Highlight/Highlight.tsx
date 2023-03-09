@@ -13,7 +13,7 @@ export default function Highlight() {
     <>
       <div
         className={styles.main}
-        style={{ backgroundImage: "url(/images/highlight.svg)" }}
+        style={{ backgroundImage: "url(/images/highlight.svg)", objectFit: "cover" }}
       >
         <div className={styles.linear}>
           <div className={styles.card}>

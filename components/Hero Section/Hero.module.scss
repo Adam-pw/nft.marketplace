@@ -55,11 +55,21 @@
         font-size: 16px;
         line-height: 140%;
 
+        cursor: pointer;
+
         gap: 12px;
+        transition: 0.5s ease;
+
+        &:hover {
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9);
+          transition: 0.5s ease;
+        }
 
         @media only screen and (max-width: 600px) {
-        padding: 19px 95.5px;
-      }
+          padding: 19px 95.5px;
+        }
       }
     }
 
@@ -85,6 +95,14 @@
   }
 
   .sub2 {
+    transition: 0.5s ease;
+
+    &:hover {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+      transition: 0.5s ease;
+    }
     &_image {
       display: flex;
     }

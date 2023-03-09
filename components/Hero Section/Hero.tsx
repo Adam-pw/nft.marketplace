@@ -16,7 +16,12 @@ export default function HeroSection() {
           </div>
           <div className={styles.button}>
             <button className={styles.buttoninner}>
-              <Image width={20} height={20} src="/images/hero_rocket.svg" alt="" />
+              <Image
+                width={20}
+                height={20}
+                src="/images/hero_rocket.svg"
+                alt=""
+              />
               Get Started
             </button>
           </div>
@@ -34,16 +39,26 @@ export default function HeroSection() {
           </div>
         </div>
         <div className={styles.sub2}>
-          <div className={styles.sub2_image}>
-            <Image width={510} height={401} src="/images/hero_image.svg" alt="" />
-          </div>
-          <div className={styles.sub2_text}>
+          {/* <div className={styles.sub2_image}> */}
+            <Image
+              width={510}
+              height={510}
+              src="/images/heroanimationtransparentbck-2.gif"
+              alt=""
+            />
+          {/* </div> */}
+          {/* <div className={styles.sub2_text}>
             <div className={styles.sub2_texthead}>Space Walking</div>
             <div className={styles.sub2_textcreator}>
-              <Image width={24} height={24} src="images/hero_creator.svg" alt="" />
+              <Image
+                width={24}
+                height={24}
+                src="images/hero_creator.svg"
+                alt=""
+              />
               <div className="">Animakid</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

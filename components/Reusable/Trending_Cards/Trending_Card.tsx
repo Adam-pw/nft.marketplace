@@ -22,13 +22,13 @@ export default function Trending_Card({ datatrend }: card) {
               <Image width={330} height={330} src={data.mainimg} alt="" />
             </div>
             <div className={styles.main_three}>
-              <div className="">
+              <div className={styles.three}>
                 <Image width={100} height={100} src={data.img1} alt="" />
               </div>
-              <div className="">
+              <div className={styles.three}>
                 <Image width={100} height={100} src={data.img2} alt="" />
               </div>
-              <div className="">
+              <div className={styles.three}>
                 <Image width={100} height={100} src="/images/trending/4.svg" alt="" />
               </div>
             </div>
