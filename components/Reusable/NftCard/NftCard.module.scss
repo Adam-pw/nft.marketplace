@@ -5,10 +5,11 @@
 
   transition: 0.5s ease;
 
+  cursor: pointer;
   &:hover {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
     transition: 0.5s ease;
   }
   

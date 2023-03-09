@@ -1,174 +1,180 @@
-.main {
-  padding: 40px 115.29px;
+.adv {
   background-color: #3b3b3b;
-  max-width: 1280px;
-  margin: auto;
+  .main {
+    padding: 40px 115.29px;
+    max-width: 1280px;
+    margin: auto;
 
-  .one {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    justify-content: space-between;
+    .one {
+      display: flex;
+      flex-direction: row;
+      color: white;
+      justify-content: space-between;
 
-    .row1 {
-      &_1 {
-        font-family: "Space Mono";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 160%;
+      .row1 {
+        &_1 {
+          font-family: "Space Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 160%;
 
-        margin-bottom: 25px;
-      }
-      &_2 {
-        font-family: "Work Sans";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 140%;
-        color: #cccccc;
-
-        margin-bottom: 20px;
-      }
-      &_3 {
-        font-family: "Work Sans";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 140%;
-        color: #cccccc;
-
-        margin-bottom: 15px;
-      }
-      &_4 {
-        margin-bottom: 30px;
-        display: flex;
-        gap: 10px;
-      }
-    }
-    .row2 {
-      &_1 {
-        font-family: "Space Mono";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 160%;
-
-        margin-bottom: 25px;
-      }
-      &_2 {
-        font-family: "Work Sans";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 140%;
-
-        margin-bottom: 20px;
-        color: #cccccc;
-      }
-      &_3 {
-        font-family: "Work Sans";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 140%;
-
-        margin-bottom: 20px;
-        color: #cccccc;
-      }
-      &_4 {
-        font-family: "Work Sans";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 140%;
-
-        margin-bottom: 20px;
-        color: #cccccc;
-      }
-    }
-
-    .row3 {
-      &_1 {
-        font-family: "Space Mono";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 160%;
-
-        margin-bottom: 25px;
-      }
-      &_2 {
-        font-family: "Work Sans";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 140%;
-
-        margin-bottom: 20px;
-        color: #cccccc;
-      }
-      .button {
-        display: flex;
-        justify-content: space-between;
-        background-color: white;
-        align-items: center;
-        border-radius: 20px;
-
-        .buttontext {
-          padding: 20px;
+          margin-bottom: 25px;
+        }
+        &_2 {
           font-family: "Work Sans";
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
           line-height: 140%;
-          color: #2b2b2b;
-          border-radius: 20px;
+          color: #cccccc;
 
-          border: 0;
+          margin-bottom: 20px;
         }
-        .but {
-          background-color: #a259ff;
-          border-radius: 20px;
-          color: white;
-          padding: 20px 20px;
-
+        &_3 {
           font-family: "Work Sans";
           font-style: normal;
-          font-weight: 600;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 140%;
+          color: #cccccc;
+
+          margin-bottom: 15px;
+        }
+        &_4 {
+          margin-bottom: 30px;
+          display: flex;
+          gap: 10px;
+
+          cursor: pointer;
+        }
+      }
+      .row2 {
+        &_1 {
+          font-family: "Space Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 160%;
+
+          margin-bottom: 25px;
+        }
+        &_2 {
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
           font-size: 16px;
           line-height: 140%;
 
+          margin-bottom: 20px;
+          color: #cccccc;
+        }
+        &_3 {
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 140%;
+
+          margin-bottom: 20px;
+          color: #cccccc;
+        }
+        &_4 {
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 140%;
+
+          margin-bottom: 20px;
+          color: #cccccc;
+        }
+      }
+
+      .row3 {
+        &_1 {
+          font-family: "Space Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 160%;
+
+          margin-bottom: 25px;
+        }
+        &_2 {
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 140%;
+
+          margin-bottom: 20px;
+          color: #cccccc;
+        }
+        .button {
           display: flex;
+          justify-content: space-between;
+          background-color: white;
           align-items: center;
-          gap: 12px;
+          border-radius: 20px;
 
-          transition: 0.5s ease;
+          .buttontext {
+            padding: 20px;
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #2b2b2b;
+            border-radius: 20px;
 
-          &:hover {
-            -webkit-transform: scale(0.9);
-            -ms-transform: scale(0.9);
-            transform: scale(0.9);
+            border: 0;
+          }
+          .but {
+            background-color: #a259ff;
+            border-radius: 20px;
+            color: white;
+            padding: 20px 20px;
+
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
             transition: 0.5s ease;
+
+            cursor: pointer;
+
+            &:hover {
+              -webkit-transform: scale(0.9);
+              -ms-transform: scale(0.9);
+              transform: scale(0.9);
+              transition: 0.5s ease;
+            }
           }
         }
       }
     }
-  }
-  .two {
-    .line {
-      margin-bottom: 20px;
-      color: #858584;
-    }
-    .cat {
-      font-family: "Work Sans";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 110%;
-      /* or 13px */
+    .two {
+      .line {
+        margin-bottom: 20px;
+        color: #858584;
+      }
+      .cat {
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 110%;
+        /* or 13px */
 
-      color: #cccccc;
+        color: #cccccc;
+      }
     }
   }
 }

@@ -1,9 +1,8 @@
 import Footer from "components/Footer/Footer";
 import Navbar from "components/Navbar/Navbar";
-import Nft from "components/Nft/Nft";
 import Head from "next/head";
 
-export default function About() {
+export default function Signup() {
   return (
     <>
       <Head>
@@ -13,6 +12,9 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <div>
+        
+      </div>
       <Footer />
     </>
   );

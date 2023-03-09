@@ -27,14 +27,14 @@ export default function HeroSection() {
           </div>
           <div>
             <div className={styles.sub1_trends}>
-              <div className="">240k+</div>
-              <div className="">100k+</div>
-              <div className="">240k+</div>
+              <div className={styles.num}>240k+</div>
+              <div className={styles.num}>100k+</div>
+              <div className={styles.num}>240k+</div>
             </div>
             <div className={styles.sub1_trends2}>
-              <div className="">Total Sale</div>
-              <div className="">Auctions</div>
-              <div className="">Artists</div>
+              <div className={styles.num1}>Total Sale</div>
+              <div className={styles.num1}>Auctions</div>
+              <div className={styles.num1}>Artists</div>
             </div>
           </div>
         </div>
