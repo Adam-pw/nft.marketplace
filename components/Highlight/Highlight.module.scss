@@ -1,5 +1,7 @@
 .main {
   height: 640px;
+  background-image: url(/images/highlight.png);
+  object-fit: cover;
 
   .linear {
     background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #a259ff 100%);
