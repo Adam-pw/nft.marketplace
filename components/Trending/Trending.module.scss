@@ -2,6 +2,10 @@
   padding: 5rem 7.188rem;
   color: white;
 
+  @media only screen and (max-width: 600px) {
+    font-size: 22px;
+  }
+
   .head {
     font-family: "Work Sans";
     font-style: normal;

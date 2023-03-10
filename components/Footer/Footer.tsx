@@ -17,25 +17,25 @@ export default function Footer() {
                 <Image
                   width={33}
                   height={32}
-                  src="/images/footer/1.svg"
+                  src="/images/footer/1.png"
                   alt=""
                 />
                 <Image
                   width={33}
                   height={32}
-                  src="/images/footer/2.svg"
+                  src="/images/footer/2.png"
                   alt=""
                 />
                 <Image
                   width={33}
                   height={32}
-                  src="/images/footer/3.svg"
+                  src="/images/footer/3.png"
                   alt=""
                 />
                 <Image
                   width={33}
                   height={32}
-                  src="/images/footer/4.svg"
+                  src="/images/footer/4.png"
                   alt=""
                 />
               </div>

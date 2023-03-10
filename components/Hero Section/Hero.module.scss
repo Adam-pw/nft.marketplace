@@ -81,7 +81,11 @@
       font-weight: 700;
       font-size: 28px;
       line-height: 140%;
-      .num{
+
+      @media only screen and (max-width: 600px) {
+        font-size: 22px;
+      }
+      .num {
         width: 33.33%;
       }
     }
@@ -94,7 +98,11 @@
       font-weight: 400;
       font-size: 23.99px;
       line-height: 160%;
-      .num1{
+
+      @media only screen and (max-width: 600px) {
+        font-size: 16px;
+      }
+      .num1 {
         width: 33.33%;
       }
     }
@@ -102,7 +110,7 @@
 
   .sub2 {
     transition: 0.5s ease;
-
+    
     &:hover {
       -webkit-transform: scale(0.95);
       -ms-transform: scale(0.95);

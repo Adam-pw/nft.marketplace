@@ -59,7 +59,7 @@ const creatorsdata1 = [
 const creatorsdata2 = [
   {
     id: 9,
-    image: "/images/Creators/9.svg",
+    image: "/images/Creators/9.png",
     name: "RustyRobot",
     sales: 34.53,
   },
@@ -77,7 +77,7 @@ const creatorsdata2 = [
   },
   {
     id: 12,
-    image: "/images/Creators/12.svg",
+    image: "/images/Creators/12.png",
     name: "Ghiblier ",
     sales: 34.53,
   },

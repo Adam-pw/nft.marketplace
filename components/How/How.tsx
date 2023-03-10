@@ -5,17 +5,17 @@ const data = [
   {
     head: "Setup Your Wallet",
     text: "Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.",
-    image: "/images/How/1.svg",
+    image: "/images/How/1.png",
   },
   {
     head: "Create Collection",
     text: "Upload your work and setup your collection. Add a description, social links and floor price.",
-    image: "/images/How/2.svg",
+    image: "/images/How/2.png",
   },
   {
     head: "Start Earning",
     text: "Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.",
-    image: "/images/How/3.svg",
+    image: "/images/How/3.png",
   },
 ];
 

@@ -36,7 +36,7 @@ const categories1 = [
     name: "Utility",
   },
   {
-    image: "/images/Categories/14.svg",
+    image: "/images/Categories/14.png",
     image2: "/images/Categories/13.png",
     name: "Sport",
   },
