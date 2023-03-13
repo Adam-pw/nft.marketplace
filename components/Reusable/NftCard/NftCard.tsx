@@ -18,7 +18,7 @@ export default function NftCard({ data }: card) {
         return (
           <>
             <div className={styles.main}>
-              <Image width={20} height={20}
+              <Image width={330} height={296}
                 className={styles.photo}
                 src={nft.image}
                 alt=""
