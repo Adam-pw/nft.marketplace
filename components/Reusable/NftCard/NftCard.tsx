@@ -23,7 +23,6 @@ export default function NftCard({ data }: card) {
                 src={nft.image}
                 alt=""
               />
-
               <div className={styles.text}>
                 <div className={styles.head}>{nft.name}</div>
                 <div className={styles.creator}>
